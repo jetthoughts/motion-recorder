@@ -1,0 +1,5 @@
+MOTION_MODEL_DATA_DID_CHANGE_NOTIFICATIONS = 'MotionModelDataDidChangeNotification'
+NOTIFY_URL = 'http://localhost:3000'
+S3_BUCKET = ENV['S3_BUCKET'] || 'your_bucket_name'
+S3_ACCESS_KEY_ID = ENV['S3_ACCESS_KEY_ID'] || 'your_aws_access_key'
+S3_SECRET_KEY = ENV['S3_ACCESS_KEY_ID'] || 'your_aws_secret_key'
